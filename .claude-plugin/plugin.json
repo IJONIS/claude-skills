@@ -1,0 +1,20 @@
+{
+  "name": "ijonis-skills",
+  "version": "1.0.0",
+  "description": "Shared Claude Code skills for IJONIS — content creation, SEO optimization, brand voice analysis, and browser automation.",
+  "author": {
+    "name": "IJONIS",
+    "url": "https://ijonis.com"
+  },
+  "homepage": "https://github.com/IJONIS/claude-skills",
+  "repository": "https://github.com/IJONIS/claude-skills",
+  "license": "MIT",
+  "keywords": [
+    "content-creation",
+    "seo",
+    "brand-voice",
+    "browser-automation",
+    "marketing"
+  ],
+  "skills": "./skills/"
+}
