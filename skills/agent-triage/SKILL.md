@@ -29,8 +29,14 @@ Before checking if any skill applies, check if a **registered agent** should own
 
 ### Mode Inference
 
-| Signal in user's message | Mode | Example |
-|--------------------------|------|---------|
+**Read the user's intent, not just their keywords.** The table below catches obvious signals, but the real job is understanding whether the user wants to **collaborate** or **delegate**:
+
+- **Interactive** = the user wants to be in the loop — shaping, iterating, steering. Signals include asking for help, phrasing that implies back-and-forth, or any tone of "let's do this together." Even subtle cues matter: "draft" implies revision, "write" implies done.
+- **Subagent** = the user wants delegation — a finished result handed back. Signals include self-contained requests with no indication they want to review intermediate steps.
+- **Session override** = if the user explicitly sets a mode for the session (e.g., "use subagent mode" or "keep it interactive"), respect that for all subsequent tasks until they say otherwise.
+
+| Keyword signals (safety net) | Mode | Example |
+|------------------------------|------|---------|
 | Conversational / iterative ("help me", "let's draft", "review this with me", "work on") | **Interactive** | "Help me write a LinkedIn post" |
 | Fire-and-forget / self-contained ("write a", "create a", "generate", "make a") | **Subagent** | "Write me a LinkedIn post about X" |
 | Ambiguous or unclear | **Ask the user** | "LinkedIn post" (no verb cue) |
@@ -48,5 +54,5 @@ Before checking if any skill applies, check if a **registered agent** should own
 - This check applies to EVERY task, including ones you think are simple
 - Agent descriptions are the source of truth for domain matching
 - When in doubt about the agent match, ask rather than skipping triage
-- When in doubt about the mode, default to subagent (less intrusive)
+- When in doubt about the mode, **ask the user** — never default to subagent
 - Multiple agents may match — present the best fit, mention alternatives
