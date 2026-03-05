@@ -1,7 +1,7 @@
 {
   "name": "ijonis-skills",
-  "version": "1.0.0",
-  "description": "Shared Claude Code skills for IJONIS — content creation, SEO optimization, brand voice analysis, browser automation, and agent spawning.",
+  "version": "1.1.0",
+  "description": "Shared Claude Code skills for IJONIS — content creation, SEO optimization, brand voice analysis, browser automation, agent triage, and agent spawning.",
   "author": {
     "name": "IJONIS",
     "url": "https://ijonis.com"
@@ -15,7 +15,9 @@
     "brand-voice",
     "browser-automation",
     "marketing",
-    "agent-spawning"
+    "agent-spawning",
+    "agent-triage"
   ],
-  "skills": "./skills/"
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json"
 }
