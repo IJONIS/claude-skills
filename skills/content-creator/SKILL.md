@@ -159,6 +159,43 @@ If the head term looks too competitive, this reveals whether a long-tail variant
 
 **Output of this step:** One confirmed primary keyword with a documented rationale (2-3 sentences: why this keyword, why it's winnable, what the differentiation angle is vs. top-ranking results). **Include the intent classification** (transactional / commercial investigation / informational with buying signal / pure informational) and explain how the content will guide readers toward a conversion.
 
+### Step 1c: Competitor Content Deep Analysis (MANDATORY)
+
+After confirming the primary keyword, **fetch and analyze the actual page content** of the top-ranking results. SERP snippets alone are not enough to differentiate — you must understand what competitors actually cover.
+
+**Process:**
+
+1. **Select targets** — From the SERP Authority Check (Step 1b), pick the **top 3 organic results** that match the content type you're creating (skip irrelevant results like directories, forums, or tool pages)
+2. **Fetch each page** — Use `WebFetch` to retrieve the full page content
+3. **Extract and document** the following for each competitor page:
+
+| Dimension | What to capture |
+|-----------|----------------|
+| **Heading structure** | All H1-H3 headings (reveals their content outline) |
+| **Word count** | Approximate length (sets the depth bar to beat) |
+| **Key topics covered** | Main themes and subtopics addressed |
+| **Unique angles** | Any original data, frameworks, case studies, or perspectives |
+| **Content gaps** | Topics they mention superficially or skip entirely |
+| **CTA strategy** | What they're selling and how they pitch it |
+| **Freshness** | Publication/update date if visible |
+| **Media & assets** | Tables, calculators, infographics, videos, downloadable resources |
+
+4. **Synthesize a content gap report** — Compare the 3 competitors against each other and identify:
+   - **Table stakes**: Topics ALL competitors cover (you must include these or look incomplete)
+   - **Differentiators**: Topics only 1 competitor covers well (opportunity to do it better)
+   - **White space**: Topics NO competitor covers (your unique value-add)
+   - **Depth gaps**: Sections competitors treat superficially that you can go deep on
+   - **Format gaps**: Missing tables, visuals, calculators, or interactive elements you can add
+
+**How to use these findings when writing:**
+- **Absorb, don't copy** — Internalize the best insights, data points, frameworks, and examples from competitor pages, then remix them into your own structure with added depth, updated data, or a sharper angle
+- **Beat their best sections** — If a competitor has a standout section (e.g., a great comparison table, a unique stat, a practical checklist), create a version that's more comprehensive, more current, or more actionable
+- **Fill every gap** — Every white-space topic and depth gap identified above becomes a section in your outline. This is your unfair advantage — cover what they missed
+- **Upgrade the format** — If competitors use walls of text, add tables, visuals, or step-by-step breakdowns. If they have basic lists, add real examples or data
+- **Cite and surpass** — Where competitors reference data or studies, find the original source, verify it, and add newer or more relevant data points
+
+**Output of this step:** A structured competitor analysis table + a bullet list of 3-5 specific ways the new content will be better/different than what currently ranks. This directly feeds the content outline.
+
 ## Creating SEO-Optimized Blog Posts
 
 1. **Keyword & Search Research** (see above)
